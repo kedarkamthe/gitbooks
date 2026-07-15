@@ -1,8 +1,14 @@
 # Table of contents
 
+## GitOps
+
+* [ArgoCD](README.md)
+* [Kustomize](gitops/kustomize.md)
+* [Basics](gitops/basics.md)
+
 ## Microservices
 
-* [JMS implementations](README.md)
+* [JMS implementations](<README (1).md>)
 * [Communication Styles](microservices/communication-styles.md)
 * [Patterns](microservices/patterns.md)
 * [Deployment Strategies](microservices/deployment-strategies.md)

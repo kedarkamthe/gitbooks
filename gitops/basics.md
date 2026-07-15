@@ -1,6 +1,16 @@
-# ArgoCD
+# Basics
+
+<figure><img src="/broken/files/roOVXY8dMGull9hIOz4E" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="/broken/files/f3uhH1xbAa9whJrRY4qr" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="/broken/files/JdHaBFoUBpupSz6wcLDd" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="/broken/files/jeqdzNNuTG0nb3irhG3W" alt=""><figcaption></figcaption></figure>
 
 
+
+<figure><img src="/broken/files/Tcsa8XfCu2baMZ8kk9qS" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="/broken/files/6tZU5uJB44TMoumAvRuO" alt=""><figcaption></figcaption></figure>
 
@@ -14,15 +24,3 @@
 <figure><img src="/broken/files/VkOTIyf1IBY3ChukLb4k" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="/broken/files/aDSFa9KC6xDgKh3m1f1K" alt=""><figcaption></figcaption></figure>
-
-
-
-**Apps of App Pattern in ArgoCD:**&#x20;
-
-In Argocd, we can create multiple apps declaratively (like having defination of application in  file) by configuring single app that would be looking out for all the argocd apps for its defination in specific directory
-
-
-
-you can override the values in values.yaml by using \
-`--helm-set <property_name>=<property_value>`\
-![](/broken/files/UFqDlctvAUgoM96abU61)
