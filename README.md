@@ -26,3 +26,29 @@ In Argocd, we can create multiple apps declaratively (like having defination of 
 you can override the values in values.yaml by using \
 `--helm-set <property_name>=<property_value>`\
 ![](/broken/files/UFqDlctvAUgoM96abU61)
+
+
+
+Okta connectivity configuration
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+
+
+In gitops practice everything should be stored in git but storing secrets in git repo present in public domain can be risky. so people can handle it through Bitnami sealed secrets or through Harshicorps Vault.&#x20;
+
+**Bitnami sealed secrets** it uses  `kubeseal` cli utility that converts normal secret to bitnami sealed secrets, which then can be push to git without hesitation as it can be decrypted only by bitnami controller. please refer below screenshot
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+**Harshicorp Vault :**&#x20;
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+{% file src=".gitbook/assets/ArgoCD-kodekloud.pdf" %}
